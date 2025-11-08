@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-public protocol FocusType: Hashable, Sendable {
+public protocol FocusType: Hashable {
     static var keyPath: KeyPath<EnvironmentValues, AnyPublisher<Self?, Never>> { get }
 }
 

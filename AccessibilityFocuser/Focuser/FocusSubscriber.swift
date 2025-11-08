@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 
 public extension View {
+    /** Receive `Focus` from upper view through `Environment Key-Values` */
     func subscribeFocusEvent<Focus: FocusType>(_ subscriber: AccessibilityFocusState<Focus?>.Binding, for focus: Focus?) -> some View {
         accessibilityFocused(subscriber, equals: focus)
             .modifier(FocusSubscriberModifier(subscriber: subscriber))
