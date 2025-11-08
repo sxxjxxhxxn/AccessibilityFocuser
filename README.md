@@ -1,6 +1,6 @@
 # AccessibilityFocuser
 
-**Subscriber - Publisher** example for SwiftUI Accessibility Focus
+**SwiftUI Accessibility Focus** Example<br /> - Passing Accessibility Focus **from parent view to child view**
 
 ## APIs
 
@@ -11,4 +11,4 @@ public func sendFocusEvnet(_ focus: Focus?, delay: TimeInterval)
 
 ## License
 
-WeakMapTable is under MIT license. See the [LICENSE](LICENSE) file for more info.
+AccessibilityFocuser is under MIT license. See the [LICENSE](LICENSE) file for more info.
